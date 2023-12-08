@@ -573,7 +573,7 @@ class PetIn(Schema):
     name = String(
         required=True,
         validate=Length(0, 10),
-        metatdata={'description': 'The name of the pet.'}
+        metadata={'description': 'The name of the pet.'}
      )
 ```
 
